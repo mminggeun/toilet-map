@@ -1,0 +1,44 @@
+.sidebar {
+    background-image: url('../assets/images/sidebarimage.jpg'); 
+    width: 26%;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    color: black; /* 텍스트 색상을 검정으로 변경 (필요에 따라 조정) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebartitle {
+    margin-top: -470px;
+}
+
+.sidebartitle1 {
+    color: rgba(255, 255, 255, 0.6); /* 텍스트 색상 */
+    font-size: 70px;
+    font-weight: 530;
+    margin-bottom: 10px;
+}
+
+.sidebartitle2 {
+    color: rgba(255, 255, 255, 0.6); /* 텍스트 색상 */
+    font-size: 27px;
+    font-weight: 900;
+    margin-top: 0; /* 필요에 따라 margin-top을 조정 */
+}
+
+.search-input {
+    width: 70%;
+    padding: 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 17px;
+    background: url('../assets/images/search-icon.png') no-repeat 8px center;
+    background-size: 20px;
+}
+
+.search-input::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* placeholder 색상 설정 */
+    opacity: 1; /* opacity를 1로 설정하여 색상이 제대로 보이도록 함 */
+}

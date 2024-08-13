@@ -1,13 +1,11 @@
-// src/App.jsx
 import React from 'react';
-import ToiletList from './components/ToiletList'; // ToiletList 컴포넌트 임포트
+import Home from './pages/Home';
 
 const App = () => {
   return (
-      <>
-      <h1>공공 화장실 목록</h1>
-      <ToiletList /> {/* ToiletList 컴포넌트 렌더링 */}
-      </>
+      <div className="App">
+        <Home />
+      </div>
   );
 };
 
