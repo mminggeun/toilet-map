@@ -1,5 +1,8 @@
 .sidebar {
-    background-image: url('../assets/images/sidebarimage.jpg'); 
+    /*background-image: url('../assets/images/sidebarimage.jpg');*/
+    background-color: #f1faeec9;
+    background-size: cover;
+    background-position: center; /* 이미지의 중심을 기준으로 배치 */
     width: 26%;
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
@@ -15,14 +18,14 @@
 }
 
 .sidebartitle1 {
-    color: rgba(255, 255, 255, 0.6); /* 텍스트 색상 */
+    color: #3e6260; /* 텍스트 색상 */
     font-size: 70px;
     font-weight: 530;
     margin-bottom: 10px;
 }
 
 .sidebartitle2 {
-    color: rgba(255, 255, 255, 0.6); /* 텍스트 색상 */
+    color: #3e6260; /* 텍스트 색상 */
     font-size: 27px;
     font-weight: 900;
     margin-top: 0; /* 필요에 따라 margin-top을 조정 */
@@ -31,14 +34,15 @@
 .search-input {
     width: 70%;
     padding: 10px 40px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.847);
     border-radius: 10px;
+    color:rgba(0, 0, 0, 0.847);
     font-size: 17px;
     background: url('../assets/images/search-icon.png') no-repeat 8px center;
     background-size: 20px;
 }
 
 .search-input::placeholder {
-    color: rgba(255, 255, 255, 0.6); /* placeholder 색상 설정 */
+    color: rgba(0, 0, 0, 0.847); /* placeholder 색상 설정 */
     opacity: 1; /* opacity를 1로 설정하여 색상이 제대로 보이도록 함 */
 }
