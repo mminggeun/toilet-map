@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Sidebar from '../components/Sidebar';
-import Map from '../components/Map';
+import ToiletMap from '../components/ToiletMap';
 import './Home.css';
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className="home-container">
             <Sidebar onLocationSelect={handleLocationSelect} /> {/* Sidebar에 함수 전달 */}
-            <Map location={location} /> {/* location 상태를 Map에 전달 */}
+            <ToiletMap location={location} /> {/* location 상태를 Map에 전달 */}
         </div>
     );
 };
